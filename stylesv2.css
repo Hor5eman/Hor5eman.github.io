@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #181818;
+}   
+
+#logo-horseman{
+    position: absolute;
+    top:38px;
+    left: 695px;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(192, 182, 159);/* #43a047   rgb(177, 213, 49)*/
+    font-size: 90px;
+    font-family: "Bebas Neue", sans-serif;
+    display: inline-block;
+    transform: scaleY(1.3);
+    transform-origin: bottom; 
+} 
+
+#logo-horseman-ext{
+    position: absolute;
+    top:83px;
+    left: 1005px;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    font-weight: 100;
+    color: rgb(192, 182, 159);
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    display: inline-block;
+    transform: scaleY(1.1);
+    transform-origin: bottom; 
+}
+
+#Home{
+    /*text-decoration: underline;
+    text-decoration-color: #43a047;*/
+    text-decoration: none;
+    position: absolute;
+    top: 130px;  
+    left: 585px;
+    font-size: 21px;
+    color:#ff9800;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+}
+
+#Home:hover{
+    background-color: #43a047 ;
+    color: rgb(220, 220, 220);
+}
+
+#Posts {
+    position: absolute;
+    top: 130px;
+    left: 660px;
+    text-decoration: none;
+    font-size: 21px;
+    color:#ff9800;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+}
+
+#Posts:hover{
+    background-color: #43a047 ;
+    color: rgb(220, 220, 220);
+}
+
+#About{
+    position: absolute;
+    top: 130px;
+    left: 749px;
+    text-decoration: none;
+    font-size: 21px;
+    color:#ff9800;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+}
+
+#About:hover{
+    background-color: #43a047 ;
+    color: rgb(220, 220, 220);
+}
+
+.separator {   
+    position: fixed;
+    top:110px;
+    width: 550px; 
+    height: 2px;
+    left: 585px; 
+    background-color:rgb(177, 213, 49);
+    margin: 10px auto; 
+    
+}
+
+#twitter-icon {
+    position: absolute;
+    top: 130px; 
+    left: 1070px; 
+    font-size: 25px;
+    color: #1DA1F2; 
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+#twitter-icon:hover {
+    color: #0d8ded; 
+}
+
+#github-icon {
+    position: absolute;
+    top: 130px; 
+    left: 1110px; 
+    font-size: 25px;
+    color: #515151; 
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+#github-icon:hover {
+    color: #000;
+}
+
+
+
+
+
+
+

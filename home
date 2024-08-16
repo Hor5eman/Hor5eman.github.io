@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesv2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Hor5eman | Blog</title>
+
+    <style>
+        h1{
+            position: absolute;
+            top: 300px; 
+            left: 610px; 
+            font-size: 36px; 
+            color: #ffffff;
+        }
+    </style>
+
+    <style>
+        img {    
+            position: absolute;
+            top:18px;
+            left: 585px;
+            margin: 0;
+            padding: 0; 
+            }
+    </style>
+
+</head>
+<body>
+    
+    <!--Extras-->
+    <div class="separator"></div>
+
+    <!--Logo-->
+    <a href="home" id="logo-horseman">H0R5EMAN</a>
+    <a href="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg" id="logo-horseman-ext">'S BLOG|BARN</a>
+    <img src="blog-logo (1).png" width="105" height=auto;> 
+
+    <!--Buttons-->
+    <a href="home" id="Home">Home</a>
+    <a href="posts" id="Posts">Posts</a>
+    <a href="about" id="About">About-Me</a>
+    <a href="https://twitter.com/MrHor5eman" id="twitter-icon" target="_blank"> <i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/Hor5eman" id="github-icon" target="_blank"><i class="fab fa-github"></i></a>
+
+    <h1> UNDER CONSTRUCTION </h1>
+</body>
+</html>
