@@ -1,10 +1,9 @@
+var md = new MobileDetect(window.navigator.userAgent);
 
-function isMobileDevice() {
-    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+if (md.mobile()) {
+    console.log("Mobile device detected. Redirecting...");
+    window.location.href = "https://hor5eman.github.io/posts";
+} else {
+    console.log("Desktop or non-mobile device detected.");
 }
-function blockMobileDevices() {
-    if (isMobileDevice()) {
-         window.location.href = "https://hor5eman.github.io/posts";
-    }
- }
-window.onload = blockMobileDevices;
